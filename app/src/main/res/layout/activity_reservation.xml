@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF4D5"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <!-- Título -->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Escolha sua suíte:"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:layout_marginBottom="8dp" />
+
+        <!-- Suítes -->
+        <RadioGroup
+            android:id="@+id/radioGroupSuites"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/suite1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suíte Imperial Atlântica (Cobertura - Vista Mar)" />
+
+            <RadioButton
+                android:id="@+id/suite2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suíte Horizonte Azul (Luxo - Vista Mar)" />
+
+            <RadioButton
+                android:id="@+id/suite3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suíte Cidade Maravilhosa (Cobertura - Vista Cidade)" />
+
+            <RadioButton
+                android:id="@+id/suite4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Suíte Jardim Carioca (Conforto - Vista Cidade)" />
+        </RadioGroup>
+
+        <!-- Campos do cliente -->
+        <EditText android:id="@+id/inputNome" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Nome" />
+        <EditText android:id="@+id/inputSobrenome" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Sobrenome" />
+        <EditText android:id="@+id/inputEmail" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="E-mail" android:inputType="textEmailAddress" />
+        <EditText android:id="@+id/inputCpf" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="CPF" android:inputType="number" />
+        <EditText android:id="@+id/inputTelefone" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="Telefone" android:inputType="phone" />
+
+        <!-- Datas -->
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Data de Entrada:" android:layout_marginTop="16dp"/>
+        <TextView android:id="@+id/txtEntrada" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp" android:background="#EEEEEE" android:text="Clique para selecionar" />
+
+        <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Data de Saída:" android:layout_marginTop="16dp"/>
+        <TextView android:id="@+id/txtSaida" android:layout_width="match_parent" android:layout_height="wrap_content" android:padding="12dp" android:background="#EEEEEE" android:text="Clique para selecionar" />
+
+        <!-- Botão -->
+        <Button android:id="@+id/btnConfirmar" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Confirmar Reserva" android:layout_marginTop="24dp" />
+    </LinearLayout>
+</ScrollView>

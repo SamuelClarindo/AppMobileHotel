@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fff4d5">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Nossas Suítes"
+            android:textSize="26sp"
+            android:textStyle="bold"
+            android:textColor="#000000"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suíte Imperial Atlântica"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Cobertura com vista para o mar. O máximo de luxo e exclusividade."
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:layout_marginBottom="4dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diária: R$ 850,00"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suíte Horizonte Azul"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Quarto de luxo com uma deslumbrante vista para o mar."
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:layout_marginBottom="4dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diária: R$ 650,00"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suíte Cidade Maravilhosa"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Localizada na cobertura, com uma vista panorâmica da cidade."
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:layout_marginBottom="4dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diária: R$ 700,00"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:layout_marginBottom="20dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Suíte Jardim Carioca"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:textColor="#000000"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Acomodação confortável com vista para a cidade."
+            android:textSize="16sp"
+            android:textColor="#333333"
+            android:layout_marginBottom="4dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Diária: R$ 500,00"
+            android:textSize="16sp"
+            android:textStyle="italic"
+            android:textColor="#000000"
+            android:layout_marginBottom="32dp"/>
+
+        <Button
+            android:id="@+id/btnFazerReserva"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Fazer Reserva"
+            android:textSize="18sp"
+            android:backgroundTint="#ffb952"
+            android:textColor="#000000"/>
+
+    </LinearLayout>
+</ScrollView>
